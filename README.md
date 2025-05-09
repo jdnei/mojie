@@ -1,5 +1,6 @@
 # mojie魔戒机场官方地址
-最新地址：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)
+最新地址：[mojie.kim](https://mojie.kim/#/register?code=wfVs0vWP)  
+官方入口地址：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)  
 ## 简介
 “魔戒机场”是指一种提供VPN服务的俗称，这类服务旨在帮助用户突破网络限制，访问被屏蔽的互联网内容。以下是对“魔戒机场”及类似VPN服务的推广介绍
 ## 魔戒机场优惠码
