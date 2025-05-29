@@ -1,5 +1,6 @@
 # mojie魔戒机场官方地址
-最新地址：[mojie.ws](https://mojie.ws/#/register?code=wfVs0vWP)  
+最新地址01：[mojie.ws](https://mojie.ws/#/register?code=wfVs0vWP)  
+最新地址02：[mojie.app](https://mojie.app/#/register?code=wfVs0vWP)  
 官方入口地址：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)  
 邀请码：wfVs0vWP 用此邀请码注册科买1元体验包  
 ## 简介
