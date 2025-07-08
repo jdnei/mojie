@@ -1,4 +1,4 @@
-# mojie魔戒机场官方地址(2025年6月27日更新)
+# mojie魔戒机场官方地址(2025年7月8日更新)
 最新地址01：[mojie.ws](https://mojie.ws/#/register?code=wfVs0vWP)  
 最新地址02：[mojie.app](https://mojie.app/#/register?code=wfVs0vWP)  
 官方入口地址：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)  
