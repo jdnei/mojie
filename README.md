@@ -2,7 +2,7 @@
 最新地址01：[mojie.ws](https://mojie.ws/#/register?code=wfVs0vWP)  
 最新地址02：[mojie.app](https://mojie.app/#/register?code=wfVs0vWP)  
 官方入口地址：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)  
-邀请码：wfVs0vWP 用此邀请码注册科买1元体验包  
+邀请码：wfVs0vWP 现在用此邀请码注册,可限时够买1元体验包  
 ## 简介
 “魔戒机场”是指一种提供VPN服务的俗称，这类服务旨在帮助用户突破网络限制，访问被屏蔽的互联网内容。以下是对“魔戒机场”及类似VPN服务的推广介绍
 ## 魔戒机场优惠码
