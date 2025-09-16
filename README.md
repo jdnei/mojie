@@ -23,6 +23,48 @@
 | 1660G 流量-不限时间| ¥ 138.00| 一次性 | 支持       | 是         | 是         | 是         |              |
 | 3600G 流量-不限时间| ¥ 279.00| 一次性 | 支持       | 是         | 是         | 是         |              |
 | 10T 流量-不限时间 | ¥ 688.00| 一次性 | 支持       | 是         | 是         | 是         |              |
+## 节点信息
+| 节点名称 | 状态 | 标签 |
+| :--- | :--- | :--- |
+| 日本-优化 | Online | 流媒体, 联通中转 |
+| 日本-优化2 | Online | 流媒体, 移动中转 |
+| 日本-优化3 | Online | 电信中转, 流媒体 |
+| 日本JP-HY2 | Offline | - |
+| 日本JP-A | Online | - |
+| 新加坡SG-HY2 | Online | - |
+| 新加坡SG-A | Online | - |
+| 新加坡-优化 | Online | 流媒体, 联通优化 |
+| 新加坡-优化2 | Online | 流媒体, 移动中转 |
+| 新加坡-优化3 | Online | 电信中转, 流媒体 |
+| 香港HK-A | Online | - |
+| 香港HKT-HY2 | Online | - |
+| 香港-优化 | Online | 原生IP, 移动中转, 流媒体 |
+| 香港-优化2 | Online | 原生IP, 移动中转, 流媒体 |
+| 香港-优化3 | Online | 流媒体 |
+| 香港WAP-优化 | Online | 流媒体, 联通中转, 原生IP |
+| 香港WAP-优化2 | Online | 流媒体, 移动中转 |
+| 香港WAP-优化3 | Online | 流媒体 |
+| 德国DE-HY2 | Online | - |
+| 印度-优化 | Online | 中转, 联通优化, 广播IP |
+| 台湾-优化 | Online | 流媒体, 联通中转, 负载均衡 |
+| 台湾-优化2-GPT | Online | 流媒体, 移动中转 |
+| 台湾-优化3 | Online | 电信中转, 流媒体 |
+| 美国USLA-A | Online | - |
+| 美国LA-优化-GPT | Online | 流媒体, 联通中转, ChatGPT |
+| 美国LA-优化2-GPT | Online | 流媒体, 移动中转, ChatGPT |
+| 美国LA-优化3-GPT | Online | 流媒体, 电信中转, ChatGPT |
+| 加拿大-优化 | Online | 加拿大东海岸, 蒙特利尔, 联通中转 |
+| 加拿大-优化2 | Online | 加拿大东海岸, 蒙特利尔, 联通中转 |
+| 加拿大-优化3 | Online | 加拿大东海岸, 蒙特利尔, 联通中转 |
+| 德国-优化 | Online | 流媒体, 英国BBC, 联通中转 |
+| 德国-优化2 | Online | 流媒体, 移动中转 |
+| 英国-优化-GPT | Online | 联通中转 |
+| 英国-优化2 | Online | 移动中转 |
+| 英国-优化3 | Online | 电信中转, 流媒体 |
+| 韩国KR-A | Online | 测试节点 |
+| 俄罗斯RU-A | Online | 测试节点 |
+| 土耳其TR-A | Online | 测试节点 |
+| 尼日利亚NG-A | Online | - |
 # 解锁流媒体
 ![imgage](https://github.com/jdnei/mojie/blob/main/img/JS-photo_2025-09-01_05-36-55.jpg)
 # 测速
