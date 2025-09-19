@@ -66,7 +66,7 @@
 | 土耳其TR-A | Online | 测试节点 |
 | 尼日利亚NG-A | Online | - |
 # 解锁流媒体
-![imgage](https://github.com/jdnei/mojie/blob/main/img/JS-photo_2025-09-01_05-36-55.jpg)
+![imgage](https://github.com/jdnei/mojie/blob/main/img/MiaoKo-%20.%20.top-3329-test.png?raw=true)
 # 测速
-## 202507 测速
-![image](https://github.com/jdnei/mojie/blob/main/img/moejie-photo_2025-08-17_22-22-42.jpg?raw=true)
+## 202509 电信 测速
+![image](https://github.com/jdnei/mojie/blob/main/img/photo_2025-09-19_10-13-14.jpg)
