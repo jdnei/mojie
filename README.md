@@ -1,7 +1,11 @@
-# mojie魔戒机场官方地址(2025年9月7日更新)
+# mojie魔戒机场官方地址(2025年9月21日更新)
 最新地址01：[mojie.kim](https://mojie.kim/register?aff=wfVs0vWP)  
 最新地址02：[mojie.app](https://mojie.app/#/register?code=wfVs0vWP)  
-官方入口地址：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)  
+最新地址03：[mojie.co](https://mojie.co/#/register?code=wfVs0vWP)  
+最新地址04：[mojie.host](https://mojie.host/#/register?code=wfVs0vWP)  
+官方入口地址01：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)  
+官方入口地址02：[按量计费.com](https://按量计费.com/#/register?code=wfVs0vWP)  
+官方入口地址02：[甘道夫.com](https://甘道夫.com/#/register?code=wfVs0vWP)  
 邀请码：wfVs0vWP 现在用此邀请码注册,可限时够买1元体验包  
 ## 简介
 “魔戒机场”是指一种提供VPN服务的俗称，这类服务旨在帮助用户突破网络限制，访问被屏蔽的互联网内容。以下是对“魔戒机场”及类似VPN服务的推广介绍
