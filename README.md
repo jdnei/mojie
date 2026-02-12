@@ -18,7 +18,7 @@ wfVs0vWP
 ``` 
 用邀请码注册，可免手续费购买体验1元2G流量拥有无限时间的流量，适合不常用党使用。  
 （此套餐无法续费）  
-![imgage](https://github.com/jdnei/mojie/blob/main/img/QQ20250921-185809.png)  
+![imgage](https://github.com/jdnei/mojie/blob/main/img/QQ20250921-185809.png?raw=true)  
 ## 优势
 按量计费：与传统的包年包月模式不同，“魔戒机场”等服务通常采用按流量计费的方式，用户只需为实际使用的流量付费，无需担心到期时间。  
 灵活性：这种计费方式适合流量需求不高的用户，例如浏览网页、收发邮件等。  
@@ -80,4 +80,4 @@ wfVs0vWP
 ![imgage](https://github.com/jdnei/mojie/blob/main/img/MiaoKo-%20.%20.top-3329-test.png?raw=true)
 # 测速
 ## 202509 电信 测速
-![image](https://github.com/jdnei/mojie/blob/main/img/photo_2025-09-19_10-13-14.jpg)
+![image](https://github.com/jdnei/mojie/blob/main/img/photo_2025-09-19_10-13-14.jpg?raw=true)
