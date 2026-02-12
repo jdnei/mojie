@@ -1,31 +1,34 @@
-name: Daily Date Update
+name: Daily Date Update & Sync to Gitee
 
 on:
   schedule:
-    # 每天北京时间上午 8 点自动运行 (UTC 0:00)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # 允许你手动点击按钮测试
+    - cron: '0 0 * * *' # 每天北京时间上午 8 点
+  workflow_dispatch:
 
 jobs:
-  update-date:
+  update-and-sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Update Date in README
         run: |
-          # 获取当前日期（如：2026年2月12日）
           CURRENT_DATE=$(date +'%Y年%-m月%-d日')
-          
-          # 核心命令：寻找括号里的“xxxx年x月x日更新”并替换
-          # 它会匹配任何文字后面的 (xxxx年x月x日更新)
+          # 通用匹配格式：(xxxx年x月x日更新)
           sed -i "s/([0-9]\{4\}年[0-9]\{1,2\}月[0-9]\{1,2\}日更新)/($CURRENT_DATE更新)/g" README.md
 
-      - name: Commit and Push
+      - name: Commit and Push to GitHub
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          # 只有日期变了才会提交，没变就不动
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update date" && git push)
+
+      - name: Force Push to Gitee
+        run: |
+          # 关键改动：使用 ${{ github.repository }} 自动获取当前“用户名/项目名”
+          # 只要你 Gitee 的路径和 GitHub 一致，这行代码就是全自动通用的
+          git push --force https://jdnei:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ github.repository }}.git main
