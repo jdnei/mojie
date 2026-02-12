@@ -2,8 +2,9 @@ name: Daily Date Update & Sync to Gitee
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天北京时间上午 8 点
-  workflow_dispatch:
+    # 每天北京时间上午 8 点自动运行 (UTC 0:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支持手动点击运行
 
 jobs:
   update-and-sync:
@@ -12,23 +13,34 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # 拉取完整历史以支持强制推送到 Gitee
 
-      - name: Update Date in README
+      - name: Update Date and Fix Image Links
         run: |
+          # 1. 获取当前日期 (格式：2026年2月12日)
           CURRENT_DATE=$(date +'%Y年%-m月%-d日')
-          # 通用匹配格式：(xxxx年x月x日更新)
+          
+          # 2. 自动更新日期：匹配 (xxxx年x月x日更新)
+          # 不管前面是“伞伞导航”还是其他文字都能生效
           sed -i "s/([0-9]\{4\}年[0-9]\{1,2\}月[0-9]\{1,2\}日更新)/($CURRENT_DATE更新)/g" README.md
+          
+          # 3. 自动修复 Gitee 图片不显示：给图片链接末尾加上 ?raw=true
+          # 针对 png, jpg, jpeg, gif 后缀进行处理
+          sed -i 's/\(\.png\|\.jpg\|\.jpeg\|\.gif\))/\1?raw=true)/g' README.md
+          
+          # 4. 防止重复添加 ?raw=true
+          sed -i 's/?raw=true?raw=true/?raw=true/g' README.md
 
       - name: Commit and Push to GitHub
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
+          # 只有在内容有变化时才提交，防止报错
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update date" && git push)
 
       - name: Force Push to Gitee
         run: |
-          # 关键改动：使用 ${{ github.repository }} 自动获取当前“用户名/项目名”
-          # 只要你 Gitee 的路径和 GitHub 一致，这行代码就是全自动通用的
+          # 通用推送命令：自动抓取当前“用户名/仓库名”
+          # 请确保已在 GitHub Settings 中设置了 GITEE_TOKEN
           git push --force https://jdnei:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ github.repository }}.git main
