@@ -28,4 +28,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add README.md
           # 只有日期变了才会提交，没变就不动
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 自动更新日期" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update date" && git push)
