@@ -3,7 +3,7 @@ name: Daily Date Update & Sync to Gitee
 on:
   schedule:
     # 每天北京时间上午 8 点自动运行 (UTC 0:00)
-    - cron: '0 0 * * *'
+    - cron: '2 0 * * *'
   workflow_dispatch: # 支持手动点击运行
 
 jobs:
