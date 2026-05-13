@@ -6,7 +6,7 @@
 官方入口地址01：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)  
 官方入口地址02：[按量计费.com](https://按量计费.com/#/register?code=wfVs0vWP)  
 官方入口地址02：[甘道夫.com](https://甘道夫.com/#/register?code=wfVs0vWP)  
-### 邀请码：现在用此邀请码注册,可限时够买1元体验包   
+## 邀请码：现在用此邀请码注册,可限时够买1元体验包   
 ```bash
 wfVs0vWP 
 ```
