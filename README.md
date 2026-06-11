@@ -5,6 +5,11 @@
 官方入口地址01：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)  
 官方入口地址02：[按量计费.com](https://按量计费.com/#/register?code=wfVs0vWP)  
 官方入口地址02：[甘道夫.com](https://甘道夫.com/#/register?code=wfVs0vWP)  
+## Telegram VPN 机场福利社 #AD
+[机场抽奖群](https://331024.de/archives/choujiang)｜[机场聊天群](https://331024.de/archives/choujiang)｜[机场体验群](https://331024.de/archives/choujiang)  
+
+[https://331024.de/archives/choujiang](https://331024.de/archives/choujiang)
+
 ## 邀请码：现在用此邀请码注册,可限时够买1元体验包   
 ```bash
 wfVs0vWP 
