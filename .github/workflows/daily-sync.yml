@@ -1,0 +1,47 @@
+﻿name: Daily Date Update & Sync to Gitee and GitLab
+
+on:
+  schedule:
+    - cron: '34 14 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update Date and Fix Image Links
+        run: |
+          YEAR_CHAR=$'\u5e74'
+          MONTH_CHAR=$'\u6708'
+          DAY_CHAR=$'\u65e5'
+          UPDATE_TEXT=$'\u66f4\u65b0'
+
+          Y=$(TZ='Asia/Shanghai' date +'%Y')
+          M=$(TZ='Asia/Shanghai' date +'%-m')
+          D=$(TZ='Asia/Shanghai' date +'%-d')
+          CURRENT_DATE="${Y}${YEAR_CHAR}${M}${MONTH_CHAR}${D}${DAY_CHAR}"
+
+          sed -i "s/([0-9]\{4\}${YEAR_CHAR}[0-9]\{1,2\}${MONTH_CHAR}[0-9]\{1,2\}${DAY_CHAR}${UPDATE_TEXT})/(${CURRENT_DATE}${UPDATE_TEXT})/g" README.md
+
+          sed -i 's/\(\.png\|\.jpg\|\.jpeg\|\.gif\))/\1?raw=true)/g' README.md
+          sed -i 's/?raw=true?raw=true/?raw=true/g' README.md
+
+      - name: Commit and Push to GitHub
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update date" && git push)
+
+      - name: Force Push to Gitee
+        run: |
+          git push --force https://jdnei:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ github.repository }}.git HEAD:${GITHUB_REF_NAME}
+
+      - name: Force Push to GitLab
+        run: |
+          git push --force https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/jdnei/${{ github.event.repository.name }}.git HEAD:${GITHUB_REF_NAME}
