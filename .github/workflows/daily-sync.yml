@@ -1,8 +1,8 @@
-﻿name: Daily Date Update & Sync to Gitee and GitLab
+name: Daily Date Update & Sync to Gitee and GitLab
 
 on:
   schedule:
-    - cron: '34 14 * * *'
+    - cron: '13 15 * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,26 +16,41 @@ jobs:
 
       - name: Update Date and Fix Image Links
         run: |
-          YEAR_CHAR=$'\u5e74'
-          MONTH_CHAR=$'\u6708'
-          DAY_CHAR=$'\u65e5'
-          UPDATE_TEXT=$'\u66f4\u65b0'
-
           Y=$(TZ='Asia/Shanghai' date +'%Y')
           M=$(TZ='Asia/Shanghai' date +'%-m')
           D=$(TZ='Asia/Shanghai' date +'%-d')
-          CURRENT_DATE="${Y}${YEAR_CHAR}${M}${MONTH_CHAR}${D}${DAY_CHAR}"
 
-          sed -i "s/([0-9]\{4\}${YEAR_CHAR}[0-9]\{1,2\}${MONTH_CHAR}[0-9]\{1,2\}${DAY_CHAR}${UPDATE_TEXT})/(${CURRENT_DATE}${UPDATE_TEXT})/g" README.md
+          EN_MONTHS=(January February March April May June July August September October November December)
+          RU_MONTHS=(января февраля марта апреля мая июня июля августа сентября октября ноября декабря)
+          FA_MONTHS=(ژانویه فوریه مارس آوریل مه ژوئن ژوئیه اوت سپتامبر اکتبر نوامبر دسامبر)
+          IDX=$((M - 1))
 
-          sed -i 's/\(\.png\|\.jpg\|\.jpeg\|\.gif\))/\1?raw=true)/g' README.md
-          sed -i 's/?raw=true?raw=true/?raw=true/g' README.md
+          update_file() {
+            file="$1"
+            date_text="$2"
+
+            if [ -f "$file" ]; then
+              echo "Updating $file => $date_text"
+
+              DATE_TEXT="$date_text" perl -0pi -e 's/^(\s*#+\s+.*?)(\([^\)\n]*(?:[12][0-9]{3}|更新|Updated|updated|обнов|Обнов|به.?روز|آپدیت)[^\)\n]*\))/$1."(".$ENV{DATE_TEXT}.")"/em' "$file"
+
+              sed -i 's/\(\.png\|\.jpg\|\.jpeg\|\.gif\))/\1?raw=true)/g' "$file"
+              sed -i 's/?raw=true?raw=true/?raw=true/g' "$file"
+            else
+              echo "$file not found, skip."
+            fi
+          }
+
+          update_file "README.md" "${Y}年${M}月${D}日更新"
+          update_file "README_EN.md" "Updated ${EN_MONTHS[$IDX]} ${D}, ${Y}"
+          update_file "README_RU.md" "обновлено ${D} ${RU_MONTHS[$IDX]} ${Y}"
+          update_file "README_FA.md" "به‌روزرسانی ${D} ${FA_MONTHS[$IDX]} ${Y}"
 
       - name: Commit and Push to GitHub
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
+          git add README.md README_EN.md README_RU.md README_FA.md
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update date" && git push)
 
       - name: Force Push to Gitee
