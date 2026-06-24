@@ -41,8 +41,8 @@ wfVs0vWP
 
 ## 📊 性能实测与分析  
 #### 1.晚高峰测速表现  
-![image](https://github.com/jdnei/mojie/blob/main/img/photo_2026-05-13_10-46-53.jpg?raw=ture)  
+![image](https://github.com/jdnei/mojie/blob/main/mojie/1.jpg?raw=ture)  
 #### 2.流媒体解锁报告  
-![image](https://github.com/jdnei/mojie/blob/main/img/MiaoKo-47.%20.%20.173-4270-test.png?raw=ture)    
+![image](https://github.com/jdnei/mojie/blob/main/mojie/2a.jpg?raw=ture)    
 #### 3.落地入口分析  
-![image](https://github.com/jdnei/mojie/blob/main/img/MiaoKo-47.%20.%20.173-4640-analyze.png?raw=ture)
+![image](https://github.com/jdnei/mojie/blob/main/mojie/3.png?raw=ture)
