@@ -46,3 +46,49 @@ wfVs0vWP
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/2a.jpg?raw=ture)    
 #### 3.落地入口分析  
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/3.png?raw=ture)
+#### 4.服务器状态整理
+| 服务器名称 | 服务器状态 | 检测结果 |
+|---|---|---|
+| 日本-优化 | Online | Get Success! |
+| 日本-优化2 | Online | Get Success! |
+| 日本-优化3 | Online | Get Success! |
+| 日本JP-HY2 | Online | Get Success! |
+| 日本JP-A | Online | Get Success! |
+| 新加坡SG-HY2 | Online | Get Success! |
+| 新加坡SG-A-Gemini | Online | Get Success! |
+| 新加坡-优化-Gemini-GPT | Online | Get Success! |
+| 新加坡-优化2-Gemini-GPT | Online | Get Success! |
+| 新加坡-优化3-Gemini | Online | Get Success! |
+| 香港HK-A-Gemini | Online | Get Success! |
+| 香港HKT-A | Online | Get Success! |
+| 香港HK-HY2 | Online | Get Success! |
+| 香港-优化-Gemini | Online | Get Success! |
+| 香港-优化2-Gemini | Online | Get Success! |
+| 香港-优化3-Gemini | Online | Get Success! |
+| 香港WAP-优化-Gemini | Online | Get Success! |
+| 香港WAP-优化2-Gemini | Online | Get Success! |
+| 香港WAP-优化3-Gemini | Online | Get Success! |
+| 韩国KR-HY2 | Online | Get Success! |
+| 印度-优化 | Online | Get Success! |
+| 台湾-优化 | Online | Get Success! |
+| 台湾-优化2-GPT | Online | Get Success! |
+| 台湾-优化3 | Online | Get Success! |
+| 美国USLA-A | Online | Get Success! |
+| 美国LA-优化-GPT | Online | Get Success! |
+| 美国LA-优化2-GPT | Online | Get Success! |
+| 美国LA-优化3-GPT | Online | Get Success! |
+| 加拿大-优化 | Online | Get Success! |
+| 加拿大-优化2 | Online | Get Success! |
+| 加拿大-优化3 | Online | Get Success! |
+| 法国FR-A | Online | Get Success! |
+| 德国-优化 | Online | Get Success! |
+| 德国-优化2 | Online | Get Success! |
+| 英国-优化-GPT | Online | Get Success! |
+| 英国-优化2 | Online | Get Success! |
+| 英国-优化3 | Online | Get Success! |
+| 越南VN-A | Online | Get Success! |
+| 俄罗斯RU-A | Online | Get Success! |
+| 乌克兰UA-A | Online | Get Success! |
+| 土耳其TR-A | Online | Get Success! |
+| 尼日利亚NG-A | Online | Get Success! |
+|
