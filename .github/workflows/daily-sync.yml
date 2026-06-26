@@ -53,9 +53,6 @@ jobs:
           git add README.md README_EN.md README_RU.md README_FA.md
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update date" && git push)
 
-      - name: Force Push to Gitee
-        run: |
-          git push --force https://jdnei:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ github.repository }}.git HEAD:${GITHUB_REF_NAME}
 
       - name: Force Push to GitLab
         run: |
