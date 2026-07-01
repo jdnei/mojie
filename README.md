@@ -9,6 +9,8 @@ mojie魔戒机场官网地址</br>
 官方入口地址01：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)</br>
 官方入口地址02：[按量计费.com](https://按量计费.com/#/register?code=wfVs0vWP)</br>
 官方入口地址02：[甘道夫.com](https://甘道夫.com/#/register?code=wfVs0vWP)</br>
+
+2026最新好用的机场推荐与节点分享：[https://github.com/jdnei/JiChangTuiJian](https://github.com/jdnei/JiChangTuiJian)</br>
 ## Telegram VPN 机场福利社 #AD
 [机场抽奖群](https://331024.de/archives/choujiang)｜[机场聊天群](https://331024.de/archives/choujiang)｜[机场体验群](https://331024.de/archives/choujiang)</br>
 
