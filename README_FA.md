@@ -1,5 +1,5 @@
  🇨🇳 [中文](README.md) | 🇺🇸 [English](README_EN.md) | 🇷🇺 [Русский](README_RU.md) | 🇮🇷 فارسی
-# آدرس رسمی mojie Magic Ring Airport (به‌روزرسانی 2 ژوئیه 2026)
+# آدرس رسمی mojie Magic Ring Airport (به‌روزرسانی 3 ژوئیه 2026)
 
 آخرین آدرس 01: [mojie.app](https://mojie.app/#/register?code=wfVs0vWP)</br>
 آخرین آدرس 02: [mojie.co](https://mojie.co/#/register?code=wfVs0vWP)</br>
