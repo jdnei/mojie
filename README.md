@@ -1,7 +1,7 @@
 🇨🇳 中文 | 🇺🇸 [English](README_EN.md) | 🇷🇺 
 [Русский](README_RU.md) | 🇮🇷 [فارسی](README_FA.md)
 
-# mojie魔戒机场官方地址(2026年7月7日更新)
+# mojie魔戒机场官方地址(2026年7月8日更新)
 mojie魔戒机场官网地址</br>
 最新地址01：[mojie.app](https://mojie.app/#/register?code=wfVs0vWP)</br>
 最新地址02：[mojie.co](https://mojie.co/#/register?code=wfVs0vWP)</br>
