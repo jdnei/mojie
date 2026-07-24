@@ -3,12 +3,12 @@
 
 # mojie魔戒机场官方地址(2026年7月24日更新)
 mojie魔戒机场官网地址</br>
-最新地址01：[mojie.app](https://mojie.app/#/register?code=wfVs0vWP)</br>
-最新地址02：[mojie.co](https://mojie.co/#/register?code=wfVs0vWP)</br>
-最新地址03：[mojie.host](https://mojie.host/#/register?code=wfVs0vWP)</br>
-官方入口地址01：[魔戒.net](https://魔戒.net/#/register?code=wfVs0vWP)</br>
-官方入口地址02：[按量计费.com](https://按量计费.com/#/register?code=wfVs0vWP)</br>
-官方入口地址02：[甘道夫.com](https://甘道夫.com/#/register?code=wfVs0vWP)</br>
+最新地址01：[mojie.app](https://to.iix.im/mj06)</br>
+最新地址02：[mojie.co](https://to.iix.im/mj05)</br>
+最新地址03：[mojie.host](https://to.iix.im/mj04)</br>
+官方入口地址01：[魔戒.net](https://to.iix.im/mj03)</br>
+官方入口地址02：[按量计费.com](https://to.iix.im/mj02)</br>
+官方入口地址02：[甘道夫.com](https://to.iix.im/mj01)</br>
 
 2026最新好用的机场推荐与节点分享：[https://github.com/jdnei/JiChangTuiJian](https://github.com/jdnei/JiChangTuiJian)</br>
 ## Telegram VPN 机场福利社 #AD
