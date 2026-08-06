@@ -1,4 +1,6 @@
- 🇨🇳 [中文](README.md) | 🇺🇸 [English](README_EN.md) | 🇷🇺 [Русский](README_RU.md) | 🇮🇷 فارسیآ
+ 🇨🇳 [中文](README.md) | 🇺🇸 [English](README_EN.md) | 🇷🇺 [Русский](README_RU.md) | 🇮🇷 فارسی
+
+ یآ
  # آدرس رسمی Mojie VPN (به‌روزرسانی در 6 اوت 2026)
 
 آدرس وب‌سایت رسمی Mojie VPN</br>
