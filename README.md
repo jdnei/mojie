@@ -48,20 +48,22 @@ wfVs0vWP
 | 10T 流量-不限时间 | ¥ 688.00| 一次性 | 支持       | 是         | 是         | 是         |              |
 
 ## 📊 性能实测与分析  
-#### 1.1联通 晚高峰测速表现  
+#### 1.1 联通晚高峰测速表现  
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/duaey238st38lt.jpg?raw=ture)</br>
-#### 1.2电信 晚高峰测速表现  
+#### 1.2 电信晚高峰测速表现  
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/72ydtkdiqo98dx.jpg?raw=ture)</br>
-#### 1.3移动 晚高峰测速表现  
+#### 1.3 移动晚高峰测速表现  
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/62ftsk3od9sj21yd.jpg?raw=ture)</br>
-#### 2.1流媒体 解锁报告  
+#### 2.1 流媒体解锁报告  
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/823834sd8sjuag23liu.png?raw=ture)</br>
-#### 2.2AI 解锁报告  
+#### 2.2 AI解锁报告  
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/103hduey37ai.jpg?raw=ture)</br>
-#### 3.落地入口分析  
+#### 3. 落地入口分析  
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/hdu23dsksfdgi5analyze.png?raw=ture)</br>
-#### 4.服务器状态整理
-
+#### 4. 服务器状态整理
+<details>
+<summary><strong>点击展开服务器列表</strong></summary> 
+  
 | 服务器名称 | 服务器状态 | 检测结果 |
 |---|---|---|
 | 日本-优化 | Online | Get Success! |
@@ -106,4 +108,5 @@ wfVs0vWP
 | 乌克兰UA-A | Online | Get Success! |
 | 土耳其TR-A | Online | Get Success! |
 | 尼日利亚NG-A | Online | Get Success! |
-|
+
+</details>
