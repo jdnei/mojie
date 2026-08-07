@@ -8,7 +8,7 @@ mojie魔戒机场官网地址</br>
 最新地址03：[mojie.host](https://to.iix.im/mj04)</br>
 官方入口地址01：[魔戒.net](https://to.iix.im/mj03)</br>
 官方入口地址02：[按量计费.com](https://to.iix.im/mj02)</br>
-官方入口地址02：[甘道夫.com](https://to.iix.im/mj01)</br>
+官方入口地址03：[甘道夫.com](https://to.iix.im/mj01)</br>
 
 邮箱客服 themojie@pm.me 发送任意消息即可回复 最新可用网址
 
