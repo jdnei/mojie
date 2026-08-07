@@ -30,7 +30,7 @@ wfVs0vWP
 ``` 
 用邀请码注册，可免手续费购买体验1元2G流量拥有无限时间的流量，适合不常用党使用。</br>
 （此套餐无法续费）</br>
-![imgage](https://github.com/jdnei/mojie/blob/main/img/QQ20250921-185809.png?raw=true)  
+![imgage](https://github.com/jdnei/mojie/blob/main/mojie/QQ20250921-185809.png?raw=true)  
 ## 优势
 按量计费：与传统的包年包月模式不同，“魔戒机场”等服务通常采用按流量计费的方式，用户只需为实际使用的流量付费，无需担心到期时间。</br>
 灵活性：这种计费方式适合流量需求不高的用户，例如浏览网页、收发邮件等。</br>
@@ -48,13 +48,20 @@ wfVs0vWP
 | 10T 流量-不限时间 | ¥ 688.00| 一次性 | 支持       | 是         | 是         | 是         |              |
 
 ## 📊 性能实测与分析  
-#### 1.晚高峰测速表现  
-![image](https://github.com/jdnei/mojie/blob/main/mojie/1.jpg?raw=ture)  
-#### 2.流媒体解锁报告  
-![image](https://github.com/jdnei/mojie/blob/main/mojie/2a.jpg?raw=ture)    
+#### 1.1联通 晚高峰测速表现  
+![image](https://github.com/jdnei/mojie/blob/main/mojie/duaey238st38lt.jpg?raw=ture)</br>
+#### 1.2电信 晚高峰测速表现  
+![image](https://github.com/jdnei/mojie/blob/main/mojie/72ydtkdiqo98dx.jpg?raw=ture)</br>
+#### 1.3移动 晚高峰测速表现  
+![image](https://github.com/jdnei/mojie/blob/main/mojie/62ftsk3od9sj21yd.jpg?raw=ture)</br>
+#### 2.1流媒体 解锁报告  
+![image](https://github.com/jdnei/mojie/blob/main/mojie/823834sd8sjuag23liu.png?raw=ture)</br>
+#### 2.2AI 解锁报告  
+![image](https://github.com/jdnei/mojie/blob/main/mojie/103hduey37ai.jpg?raw=ture)</br>
 #### 3.落地入口分析  
-![image](https://github.com/jdnei/mojie/blob/main/mojie/3.png?raw=ture)
+![image](https://github.com/jdnei/mojie/blob/main/mojie/hdu23dsksfdgi5analyze.png.png?raw=ture)</br>
 #### 4.服务器状态整理
+
 | 服务器名称 | 服务器状态 | 检测结果 |
 |---|---|---|
 | 日本-优化 | Online | Get Success! |
