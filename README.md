@@ -59,7 +59,7 @@ wfVs0vWP
 #### 2.2AI 解锁报告  
 ![image](https://github.com/jdnei/mojie/blob/main/mojie/103hduey37ai.jpg?raw=ture)</br>
 #### 3.落地入口分析  
-![image](https://github.com/jdnei/mojie/blob/main/mojie/hdu23dsksfdgi5analyze.png.png?raw=ture)</br>
+![image](https://github.com/jdnei/mojie/blob/main/mojie/hdu23dsksfdgi5analyze.png?raw=ture)</br>
 #### 4.服务器状态整理
 
 | 服务器名称 | 服务器状态 | 检测结果 |
