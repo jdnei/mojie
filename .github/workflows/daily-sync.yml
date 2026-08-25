@@ -2,7 +2,7 @@ name: Daily Date Update & Sync to Gitee and GitLab
 
 on:
   schedule:
-    - cron: '47 11 * * *'
+    - cron: '40 2 * * *'
   workflow_dispatch:
 
 jobs:
