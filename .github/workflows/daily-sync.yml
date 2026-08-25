@@ -1,0 +1,62 @@
+name: Daily Date Update & Sync to Gitee and GitLab
+
+on:
+  schedule:
+    - cron: '47 11 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update Date and Fix Image Links
+        run: |
+          Y=$(TZ='Asia/Shanghai' date +'%Y')
+          M=$(TZ='Asia/Shanghai' date +'%-m')
+          D=$(TZ='Asia/Shanghai' date +'%-d')
+
+          EN_MONTHS=(January February March April May June July August September October November December)
+          RU_MONTHS=(января февраля марта апреля мая июня июля августа сентября октября ноября декабря)
+          FA_MONTHS=(ژانویه فوریه مارس آوریل مه ژوئن ژوئیه اوت سپتامبر اکتبر نوامبر دسامبر)
+          IDX=$((M - 1))
+
+          update_file() {
+            file="$1"
+            date_text="$2"
+
+            if [ -f "$file" ]; then
+              echo "Updating $file => $date_text"
+
+              DATE_TEXT="$date_text" perl -0pi -e 's/^(\s*#+\s+.*?)(\([^\)\n]*(?:[12][0-9]{3}|更新|Updated|updated|обнов|Обнов|به.?روز|آپدیت)[^\)\n]*\))/$1."(".$ENV{DATE_TEXT}.")"/em' "$file"
+
+              sed -i 's/\(\.png\|\.jpg\|\.jpeg\|\.gif\))/\1?raw=true)/g' "$file"
+              sed -i 's/?raw=true?raw=true/?raw=true/g' "$file"
+            else
+              echo "$file not found, skip."
+            fi
+          }
+
+          update_file "README.md" "${Y}年${M}月${D}日更新"
+          update_file "README_EN.md" "Updated ${EN_MONTHS[$IDX]} ${D}, ${Y}"
+          update_file "README_RU.md" "обновлено ${D} ${RU_MONTHS[$IDX]} ${Y}"
+          update_file "README_FA.md" "به‌روزرسانی ${D} ${FA_MONTHS[$IDX]} ${Y}"
+
+      - name: Commit and Push to GitHub
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md README_EN.md README_RU.md README_FA.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update date" && git push)
+
+     # - name: Force Push to Gitee
+     #    run: |
+     #     git push --force https://jdnei:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ github.repository }}.git HEAD:${GITHUB_REF_NAME}
+
+      - name: Force Push to GitLab
+        run: |
+          git push --force https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/jdnei/${{ github.event.repository.name }}.git HEAD:${GITHUB_REF_NAME}
