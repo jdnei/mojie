@@ -1,7 +1,7 @@
  🇨🇳 [中文](README.md) | 🇺🇸 [English](README_EN.md) | 🇷🇺 [Русский](README_RU.md) | 🇮🇷 فارسی
 
  یآ
- # آدرس رسمی Mojie VPN (به‌روزرسانی 2 سپتامبر 2026)
+ # آدرس رسمی Mojie VPN (به‌روزرسانی 3 سپتامبر 2026)
 
 آدرس وب‌سایت رسمی Mojie VPN</br>
 جدیدترین آدرس 01: [mojie.app](https://to.iix.im/mj06)</br>
