@@ -1,5 +1,5 @@
 🇨🇳 [中文](README.md) | 🇺🇸 English | 🇷🇺 [Русский](README_RU.md) | 🇮🇷 [فارسی](README_FA.md)
-# Mojie VPN Official Address (Updated September 4, 2026)
+# Mojie VPN Official Address (Updated September 5, 2026)
 
 Mojie VPN Official Website Address</br>
 Latest Address 01: [mojie.app](https://to.iix.im/mj06)</br>
