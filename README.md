@@ -28,7 +28,7 @@ wfVs0vWP
 ![imgage](https://github.com/jdnei/mojie/blob/main/mojie/QQ20250921-185809.png?raw=true)  
 
 ## 优惠码/折扣码
-`9.2折，截止日期：未知`
+`9.4折，截止日期：未知`
 ```bash
 6year
 ```
